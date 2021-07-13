@@ -125,6 +125,10 @@ img {
     overflow: visible;
 }
 
+.showcase-text {
+    transform: translateX(-200%);
+}
+
 .showcase-card {
     background-color: #fff;
     color: #333;
@@ -142,6 +146,7 @@ img {
     padding: 40px;
     z-index: 100;
     justify-self: flex-end;
+    transform: translateX(200%);
 }
 
 .showcase-form .form-control {
@@ -177,4 +182,15 @@ img {
     left: 0;
     background-color: #fff;
     transform: skewY(-3deg);
+}
+
+
+.showcase-left {
+    transition: 1s;
+    transform: translateX(0);
+}
+
+.showcase-right {
+    transition: 1s;
+    transform: translateX(0);
 }
