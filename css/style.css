@@ -36,3 +36,41 @@ p {
 img {
     width: 100%;
 }
+
+.container {
+    max-width: 1073px;
+    margin: 0 auto;
+    overflow: auto; /* that for the margin top of the h1 cuz make a space on the top of the navbar */
+    padding: 0 40px;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #047aed;
+    color: #fff;
+    height: 70px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
